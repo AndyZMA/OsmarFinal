@@ -1,0 +1,12 @@
+.logo a .logo-image {
+    width: 100px; /* Ajusta el tamaño según sea necesario */
+    height: 100px; /* Ajusta el tamaño según sea necesario */
+    background-image: url('img/logo/logoW.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: background-image 0.3s ease-in-out;
+}
+
+.logo a .logo-image:hover {
+    background-image: url('img/logo/COLOR=G_G.png');
+}
